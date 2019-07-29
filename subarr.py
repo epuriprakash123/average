@@ -9,6 +9,7 @@ def arr(x,n):
 		if((lsum*(n-i-1))==(rsum*(i+1))):
 			found=True
 			print("yes")
+			break
 	if found==False:
 		print("no")
 n=int(input())
